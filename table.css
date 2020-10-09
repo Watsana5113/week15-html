@@ -1,0 +1,19 @@
+table{
+    border: 10px solid violet;
+    border-collapse:collapse;
+}
+th,td{
+    border:1px solid turquoise;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table#alten tr:nth-child(even){
+    background-color: tomato;
+}
+table#alter tr:nth-child(odd){
+    background-color: #eeeeee;
+}
+table#alter th{
+    color:#fff;
+    background-color: gray;
+}
